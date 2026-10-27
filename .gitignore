@@ -1,0 +1,17 @@
+# Secrets / API keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+credentials*.json
+service-account*.json
+client_secret*.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
